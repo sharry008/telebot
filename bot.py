@@ -33,7 +33,7 @@ def action(msg):
         telegram_bot.sendDocument(chat_id, document=open(''))
    
 
-telegram_bot = telepot.Bot('468382312:AAFhURMxpVlMWEdFzbIQLszBPFEUpAeOLFQ')
+telegram_bot = telepot.Bot('1706583797:AAESgLv4Est7akrg6lRLIgARNOQdjcnSU9I')
 print (telegram_bot.getMe())
 
 MessageLoop(telegram_bot, action).run_as_thread()
