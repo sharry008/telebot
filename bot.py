@@ -18,7 +18,7 @@ def action(msg):
         telegram_bot.sendMessage (chat_id, str('1 Python101 book --(/py101)' )) #(/py101 command to acess the file)
         telegram_bot.sendMessage (chat_id, str('2 Python202 book --(/py202)'))  #(/py202 command to acess the file)
         telegram_bot.sendMessage (chat_id, str('3 Basic Networking notes --(/netw)'))
-        telegram_bot.sendMessage (chat_id. str('4 C++ Notes --(/c1)'))
+        telegram_bot.sendMessage (chat_id, str('4 C++ Notes --(/c1)'))
     elif command == '/time':
         telegram_bot.sendMessage(chat_id, str(now.hour)+str(":")+str(now.minute))
     elif command == '/logo':
@@ -33,7 +33,7 @@ def action(msg):
         telegram_bot.sendDocument(chat_id, document=open(''))
    
 
-telegram_bot = telepot.Bot('1706583797:AAESgLv4Est7akrg6lRLIgARNOQdjcnSU9I')
+telegram_bot = telepot.Bot('1817933623:AAHA2ZXYkdotuxPtHLBYhCfepxKELRPOhzw')
 print (telegram_bot.getMe())
 
 MessageLoop(telegram_bot, action).run_as_thread()
