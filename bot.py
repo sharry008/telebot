@@ -34,7 +34,7 @@ def action(msg):
         telegram_bot.sendDocument(chat_id, document=open('/home/pi/Documents/c1.pdf'))
 
 
-telegram_bot = telepot.Bot('1817933623:AAHA2ZXYkdotuxPtHLBYhCfepxKELRPOhzw')
+telegram_bot = telepot.Bot('1893882743:AAFUUduaD3Ody7nnsI4oBXx2HRDp3LZClpo')
 print(telegram_bot.getMe())
 
 MessageLoop(telegram_bot, action).run_as_thread()
